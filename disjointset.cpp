@@ -10,6 +10,7 @@ class disjointset{
         size.resize(n+1);
         for(int i=0;i<=n;i++){
             parent[i]=i;
+            size[i]=1;
         }
     }
     int findparent(int u){
